@@ -1,20 +1,40 @@
 .card {
+    padding: 4rem;
+    position: relative;
     &__image {
+        margin-bottom: 2rem;
     }
 
     &__header {
+        margin-bottom: 2rem;
+        font-size: 4.2rem;
+        text-transform: uppercase;
     }
 
     &__content {
+        font-size: $default-font-size;
+        line-height: 2.2;
     }
 }
 
 .btn {
+
+    &:link,
+    &:visited {
+        border-radius: 5rem;
+        padding: 1.4rem 4rem;
+        font-size: $default-font-size;
+        background-color: $very-light-gray;
+        text-decoration: none;
+    }
     &--1 {
+        color: $bright-orange;
     }
     &--2 {
+        color: $dark-cyan;
     }
 
     &--3 {
+        color: $very-dark-cyan;
     }
 }
