@@ -1,0 +1,32 @@
+.body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(10, minmax(min-content, 10rem)) 1fr;
+    grid-template-rows: 25% 50% 25%;
+}
+.attribution {
+    grid-column: 1/-1;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+.container {
+    background-color: khaki;
+    grid-row: 2/3;
+    grid-column: 2/12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.card--1{
+    grid-column: 1/5;
+    background-color: $bright-orange;
+}
+.card--2{
+    grid-column: 5/9;
+    background-color: $dark-cyan;
+}
+.card--3{
+    grid-column: 9/13;
+    background-color: $very-dark-cyan;
+}
