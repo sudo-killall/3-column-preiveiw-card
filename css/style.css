@@ -14,9 +14,13 @@
 .card__content {
   font-size: 1.5rem;
   line-height: 2.2;
-  margin-bottom: 6rem;
+  margin-bottom: 9rem;
 }
 
+.btn {
+  position: absolute;
+  bottom: 3rem;
+}
 .btn:link, .btn:visited {
   border-radius: 5rem;
   padding: 1.4rem 4rem;

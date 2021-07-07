@@ -14,11 +14,13 @@
     &__content {
         font-size: $default-font-size;
         line-height: 2.2;
-        margin-bottom: 6rem;
+        margin-bottom: 9rem;
     }
 }
 
 .btn {
+    position: absolute;
+    bottom: 3rem;
     &:link,
     &:visited {
         border-radius: 5rem;
